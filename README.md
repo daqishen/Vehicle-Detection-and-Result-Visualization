@@ -14,6 +14,10 @@ The model contains 5 classes: background, car, bus ,van and others.
 The test demo is at tool/iamangry.py
 Please store the image at data/demo folder and rename the image in 6 digits.
 
+The next step is to draw the heatmap. The drawing function is bascially use folium library. You need to add geojson file to find the site to draw the map. This demo contains several site information in New York Manhattan. I separate it into several pieces and draw a heatmap as an example:
+
+![image](https://github.com/daqishen/vehicle-detection-and-result-visualization/blob/master/data/imgs/heatmap.JPG)
+
 
 
 
