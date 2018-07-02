@@ -18,7 +18,7 @@ The next step is to draw the heatmap. The drawing function is bascially use foli
 
 ![image](https://github.com/daqishen/vehicle-detection-and-result-visualization/blob/master/data/imgs/heatmap.JPG)
 
-
+As a reminder, the model use Tensorflow-GPU (my gpu is GTX1050). So please use an suitable gpu to process the whole model.(cpu model might be in trouble) 
 
 
 
