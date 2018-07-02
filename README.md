@@ -6,6 +6,15 @@ The whole project contains three different part: Fetching data, Processing the i
 Instalization: This faster rcnn model repository is based on @endernewton tf-faster-rcnn model. The installation is https://github.com/endernewton/tf-faster-rcnn#installation.
 Since this repository is used for windows system, other os has not been test before. Please make sure the prerequisites are well done before.
 
+For each image, the model will detect the vehicles in the image. For example, this is the result of the car detection.
+
+![image](https://github.com/daqishen/vehicle-detection-and-result-visualization/blob/master/data/imgs/result.JPG)
+
+The model contains 5 classes: background, car, bus ,van and others.
+The test demo is at tool/iamangry.py
+Please store the image at data/demo folder and rename the image in 6 digits.
+
+
 
 
 
